@@ -53,3 +53,12 @@ print(dreadnought.copies_available)
 
 dreadnought.remove_copies(5)
 print(dreadnought.copies_available)
+
+mindfulness = Book(
+  title="The Power of Now",
+  author="Eckhart Tolle",
+  description="The Power of Now: A Guide to Spiritual Enlightenment",
+  isbn="9781682300688",
+  pub_date="1997",
+  copies_available=8,
+  checked_out_by=["Ajh"])
