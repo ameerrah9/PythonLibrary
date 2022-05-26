@@ -61,4 +61,4 @@ mindfulness = Book(
   isbn="9781682300688",
   pub_date="1997",
   copies_available=8,
-  checked_out_by=["Ajh"])
+  checked_out_by=["Ajh", "Parker"])
