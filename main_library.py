@@ -24,7 +24,7 @@ class Book:
 
     def remove_copies(self, number):
       self.copies_available -= number
-      
+
 dreadnought = Book(
     title="Dreadnought (Nemesis Book 1)",
     author="April Daniels",
@@ -43,7 +43,7 @@ dreadnought.checkout("Tara")
 print(dreadnought.checked_out_by)
 print(dreadnought.copies_available)
 
-dreadnought.check_in("Ghameerah")
+dreadnought.check_in("Ashley")
 
 print(dreadnought.checked_out_by)
 print(dreadnought.copies_available)
@@ -61,4 +61,4 @@ mindfulness = Book(
   isbn="9781682300688",
   pub_date="1997",
   copies_available=8,
-  checked_out_by=["Ajh", "Parker"])
+  checked_out_by=["Ajh", "Parker", "Jande"])
